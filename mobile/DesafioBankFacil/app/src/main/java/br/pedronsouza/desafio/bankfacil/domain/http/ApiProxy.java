@@ -85,6 +85,6 @@ public class ApiProxy implements IProxy {
 
     interface Endpoints {
         @GET("/")
-        public Call<UserList> getUserList(@Query("results")int limit);
+        Call<UserList> getUserList(@Query("results")int limit);
     }
 }
