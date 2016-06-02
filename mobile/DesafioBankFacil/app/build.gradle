@@ -1,4 +1,13 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+
+apt {
+    arguments {
+        resourcePackageName android.defaultConfig.applicationId
+        androidManifestFile variant.outputs[0]?.processResources?.manifestFile
+    }
+}
 
 android {
     compileSdkVersion 23
@@ -10,7 +19,15 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -20,7 +37,31 @@ android {
 }
 
 dependencies {
+    def androidAnnotations = '4.0.0'
+    def supportLibrary = '23.3.0'
+    def espresso = '2.2.2'
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.3.0'
+    retrolambdaConfig 'net.orfjackal.retrolambda:retrolambda:1.8.1'
+
+    apt                     "org.androidannotations:androidannotations:$androidAnnotations"
+    compile                 "org.androidannotations:androidannotations-api:$androidAnnotations"
+
+    compile                 "com.squareup.picasso:picasso:2.5.2"
+    compile                 "com.android.support:design:$supportLibrary"
+    compile                 "com.android.support:recyclerview-v7:$supportLibrary"
+    compile                 "com.android.support:appcompat-v7:$supportLibrary"
+
+    testCompile             'junit:junit:4.12'
+    androidTestCompile      "com.android.support.test:rules:0.5"
+    androidTestCompile      "com.android.support.test:runner:0.5"
+    androidTestCompile      "com.android.support.test.espresso:espresso-intents:$espresso"
+    androidTestCompile      "com.android.support:support-annotations:$supportLibrary"
+    androidTestCompile("com.android.support.test.espresso:espresso-contrib:$espresso") {
+        exclude module: 'appcompat-v7'
+        exclude module: 'support-v4'
+        exclude module: 'support-annotations'
+        exclude module: 'recyclerview-v7'
+        exclude module: 'design'
+    }
 }
