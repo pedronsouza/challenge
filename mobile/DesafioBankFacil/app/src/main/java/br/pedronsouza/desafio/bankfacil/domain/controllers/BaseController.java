@@ -2,10 +2,13 @@ package br.pedronsouza.desafio.bankfacil.domain.controllers;
 
 import android.support.v7.app.AlertDialog;
 
+import org.androidannotations.annotations.Bean;
 import org.androidannotations.annotations.EBean;
 import org.androidannotations.annotations.RootContext;
 import org.androidannotations.annotations.UiThread;
 
+import br.pedronsouza.desafio.bankfacil.domain.http.ApiProxy;
+import br.pedronsouza.desafio.bankfacil.domain.http.IProxy;
 import br.pedronsouza.desafio.bankfacil.domain.http.exceptions.HttpError;
 import br.pedronsouza.desafio.bankfacil.ui.activities.BaseActivity;
 
@@ -13,6 +16,9 @@ import br.pedronsouza.desafio.bankfacil.ui.activities.BaseActivity;
 public abstract class BaseController {
     @RootContext
     BaseActivity context;
+
+    @Bean(ApiProxy.class)
+    IProxy proxy;
 
     private void showProgress() {
         if (context != null)

@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.UiThread;
+import org.greenrobot.eventbus.EventBus;
 
 import br.pedronsouza.desafio.bankfacil.ui.fragments.ProgressIndicator;
 import br.pedronsouza.desafio.bankfacil.ui.fragments.ProgressIndicator_;
@@ -14,6 +15,20 @@ import br.pedronsouza.desafio.bankfacil.ui.fragments.ProgressIndicator_;
 @EActivity
 public abstract class BaseActivity extends AppCompatActivity {
     private Handler handler;
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (!EventBus.getDefault().isRegistered(this))
+            EventBus.getDefault().register(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (EventBus.getDefault().isRegistered(this))
+            EventBus.getDefault().unregister(this);
+    }
 
     @UiThread
     public void showProgressIndicator() {

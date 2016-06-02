@@ -22,7 +22,7 @@ public class UserSerializer implements JsonDeserializer<User> {
             if (data != null) {
                 String firstName = data.get("name").getAsJsonObject().get("first").getAsString();
                 String lastName = data.get("name").getAsJsonObject().get("last").getAsString();
-                String thumb = data.get("picture").getAsJsonObject().get("thumbnail").getAsString();
+                String thumb = data.get("picture").getAsJsonObject().get("large").getAsString();
                 String name = String.format(Locale.getDefault(), "%s %s",  firstName, lastName);
 
                 out.setName(name);
