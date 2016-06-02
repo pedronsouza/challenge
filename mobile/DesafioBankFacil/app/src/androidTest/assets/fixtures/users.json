@@ -1,0 +1,380 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "käthe",
+        "last": "friedrich"
+      },
+      "location": {
+        "street": "9470 hauptstraße",
+        "city": "schmalkalden-meiningen",
+        "state": "baden-württemberg",
+        "postcode": 49379
+      },
+      "email": "käthe.friedrich@example.com",
+      "login": {
+        "username": "organicwolf531",
+        "password": "moreno",
+        "salt": "IRmMNvsf",
+        "md5": "f005d4fa1936f2069b930cfd88b2ad2c",
+        "sha1": "b54b2f9b365641ec75ad6e02a91a3ae79a1b6cf5",
+        "sha256": "2a9f3591d773f93e36633c842dcce28e9aa1477bdd4dd733aa1e0f91d4001fb3"
+      },
+      "registered": 1324339600,
+      "dob": 1283013300,
+      "phone": "0621-2658713",
+      "cell": "0175-1443211",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/66.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/66.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/66.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "arthur",
+        "last": "rey"
+      },
+      "location": {
+        "street": "2987 place du 8 février 1962",
+        "city": "dijon",
+        "state": "loire",
+        "postcode": 24316
+      },
+      "email": "arthur.rey@example.com",
+      "login": {
+        "username": "orangebird512",
+        "password": "strong",
+        "salt": "ZjbIf69q",
+        "md5": "1c07eb2d50168541c270ef58cc7f76fa",
+        "sha1": "571deadc210761f1462c1eaf76e254aeeb8786d1",
+        "sha256": "af45796b9ba12bc79686f7a97e6eba1f7e66778a14e604547ebb8c6caabbe40e"
+      },
+      "registered": 1066028282,
+      "dob": 1303812543,
+      "phone": "01-99-89-68-62",
+      "cell": "06-63-94-95-46",
+      "id": {
+        "name": "INSEE",
+        "value": "111386994793 41"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/69.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/69.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/69.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "ceyhan",
+        "last": "erez"
+      },
+      "location": {
+        "street": "6954 filistin cd",
+        "city": "artvin",
+        "state": "ordu",
+        "postcode": 27079
+      },
+      "email": "ceyhan.erez@example.com",
+      "login": {
+        "username": "brownrabbit333",
+        "password": "remember",
+        "salt": "RaZMi9FH",
+        "md5": "044e62ff70ae7c4e59c35cc3c9443228",
+        "sha1": "48ed9676c971a8f6175f1dd39c35cb1cbdf1fd27",
+        "sha256": "c7ec5186fc2e2e0636353e4a21a5e121bd248f224958cdc72687d41feb6fe2c7"
+      },
+      "registered": 1143713401,
+      "dob": 986007961,
+      "phone": "(171)-240-9067",
+      "cell": "(608)-510-9783",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/78.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/78.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/78.jpg"
+      },
+      "nat": "TR"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "ron",
+        "last": "davidson"
+      },
+      "location": {
+        "street": "2205 main road",
+        "city": "kingston upon hull",
+        "state": "nottinghamshire",
+        "postcode": "RR7Z 3SP"
+      },
+      "email": "ron.davidson@example.com",
+      "login": {
+        "username": "ticklishkoala235",
+        "password": "gangster",
+        "salt": "8donTuar",
+        "md5": "494ebc61c644cef86b0a44e2f6ee0ab5",
+        "sha1": "9d1c1285f217fb4b08ae80f7b068594f612fcbd2",
+        "sha256": "c7b920c1fec6c889449c8ab3ee07a8fe62ba4c2be78c060c49e9a013878759cc"
+      },
+      "registered": 1375130899,
+      "dob": 441286971,
+      "phone": "01842 52461",
+      "cell": "0753-635-312",
+      "id": {
+        "name": "NINO",
+        "value": "JG 34 88 46 L"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/3.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/3.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "ryder",
+        "last": "patel"
+      },
+      "location": {
+        "street": "4682 balmoral st",
+        "city": "sandy lake",
+        "state": "new brunswick",
+        "postcode": 62171
+      },
+      "email": "ryder.patel@example.com",
+      "login": {
+        "username": "silverfrog627",
+        "password": "reddevil",
+        "salt": "Yyb1Bjli",
+        "md5": "50d388b86bcab5ee53069a9d6ee649d9",
+        "sha1": "ba1b18439d7f7035a42793839ac59eda327af041",
+        "sha256": "848d4c376afd3621992f2442b27280a89fcebb9f45c710ecc9b53b134d02730c"
+      },
+      "registered": 1238824584,
+      "dob": 1421988833,
+      "phone": "141-507-2049",
+      "cell": "497-875-4512",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/95.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/95.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/95.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "becky",
+        "last": "moore"
+      },
+      "location": {
+        "street": "1734 station road",
+        "city": "bristol",
+        "state": "herefordshire",
+        "postcode": "QV0M 9PY"
+      },
+      "email": "becky.moore@example.com",
+      "login": {
+        "username": "crazyduck844",
+        "password": "rodney",
+        "salt": "oE7NesXA",
+        "md5": "47544df317babec6e0933c884a52985a",
+        "sha1": "573534e0a6c650ec0a3644f00b83e7cb7441f92a",
+        "sha256": "81677b9bed90a4dacb7277e2c5c43444b7e8cf6060b1dab43f60053802bb0d7e"
+      },
+      "registered": 1059404432,
+      "dob": 135690180,
+      "phone": "017687 72857",
+      "cell": "0752-903-160",
+      "id": {
+        "name": "NINO",
+        "value": "JC 61 37 63 V"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/3.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/3.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/3.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "daniel",
+        "last": "novak"
+      },
+      "location": {
+        "street": "6395 peel st",
+        "city": "summerside",
+        "state": "nunavut",
+        "postcode": 83381
+      },
+      "email": "daniel.novak@example.com",
+      "login": {
+        "username": "redswan878",
+        "password": "112358",
+        "salt": "WDh1zaWW",
+        "md5": "1279f91757bef55dcfb1d3f8f089ecae",
+        "sha1": "646eccf0ea5393054775611223eb20ba6e7971d3",
+        "sha256": "464d27bd5f640964e1cdc3e1f6eebd76d23248e42d9386b8b244c4064de040f1"
+      },
+      "registered": 1285029557,
+      "dob": 1141960923,
+      "phone": "786-117-2155",
+      "cell": "930-233-5491",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/39.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/39.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+      },
+      "nat": "CA"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "lenni",
+        "last": "ranta"
+      },
+      "location": {
+        "street": "4935 esplanadi",
+        "city": "loppi",
+        "state": "ostrobothnia",
+        "postcode": 92738
+      },
+      "email": "lenni.ranta@example.com",
+      "login": {
+        "username": "whitefish336",
+        "password": "ppppppp",
+        "salt": "HGsEOi9w",
+        "md5": "0065a7aef8cd6ecccdb5dbcc0313864d",
+        "sha1": "43d9b233c6a26ae1cceda9aad729b2c46d54cdae",
+        "sha256": "6bf5f70950863bfb50d69e7edbcfdc29e0279151d24b8192d125ee4693cf4afa"
+      },
+      "registered": 1310158692,
+      "dob": 721481159,
+      "phone": "03-784-446",
+      "cell": "046-718-96-48",
+      "id": {
+        "name": "HETU",
+        "value": "85354940-V"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/91.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/91.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/91.jpg"
+      },
+      "nat": "FI"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "hunter",
+        "last": "fields"
+      },
+      "location": {
+        "street": "2446 north road",
+        "city": "portarlington",
+        "state": "minnesota",
+        "postcode": 28496
+      },
+      "email": "hunter.fields@example.com",
+      "login": {
+        "username": "redbutterfly239",
+        "password": "gggggggg",
+        "salt": "S6NQH3hL",
+        "md5": "f47f7fbcb34aa9adcab768353e19f5a2",
+        "sha1": "80c9feab1b5998274ecae9da788d815527ff96d4",
+        "sha256": "1f17dad4619e5b9500ab28a686b7dfe561c3901bcc24d945973b890451318894"
+      },
+      "registered": 966031291,
+      "dob": 658720004,
+      "phone": "031-950-4123",
+      "cell": "081-120-1845",
+      "id": {
+        "name": "PPS",
+        "value": "3049648T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/23.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/23.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+      },
+      "nat": "IE"
+    },
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "daniel",
+        "last": "pelletier"
+      },
+      "location": {
+        "street": "5570 stanley way",
+        "city": "minto",
+        "state": "nunavut",
+        "postcode": 58957
+      },
+      "email": "daniel.pelletier@example.com",
+      "login": {
+        "username": "smallcat663",
+        "password": "redwood",
+        "salt": "jXPMzn7Y",
+        "md5": "7d3383e1986a5734e683cfe844f176c4",
+        "sha1": "1ac37749ec3e203d8991f8bc3dda510263c8992e",
+        "sha256": "dc5548c8aa49a584c3840d006e848fcdb7c0242f9840918f9e37749fe0f2a95c"
+      },
+      "registered": 1299378950,
+      "dob": 968506976,
+      "phone": "748-299-7435",
+      "cell": "937-961-4050",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/71.jpg"
+      },
+      "nat": "CA"
+    }
+  ],
+  "info": {
+    "seed": "e093d1f656c4dc31",
+    "results": 10,
+    "page": 1,
+    "version": "1.0"
+  }
+}
