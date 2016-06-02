@@ -8,14 +8,11 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.Shader;
 
-// enables hardware accelerated rounded corners
-// original idea here : http://www.curious-creature.org/2012/12/11/android-recipe-1-image-with-rounded-corners/
+// source: https://gist.github.com/aprock/6213395
 public class RoundedTransformation implements com.squareup.picasso.Transformation {
     private final int radius;
-    private final int margin;  // dp
-
-    // radius is corner radii in dp
-    // margin is the board in dp
+    private final int margin;
+    
     public RoundedTransformation(final int radius, final int margin) {
         this.radius = radius;
         this.margin = margin;
