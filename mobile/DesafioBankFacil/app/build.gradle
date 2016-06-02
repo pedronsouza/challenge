@@ -40,6 +40,9 @@ dependencies {
     def androidAnnotations = '4.0.0'
     def supportLibrary = '23.3.0'
     def espresso = '2.2.2'
+    def retrofit = '2.0.1'
+    def gson = '2.6.2'
+    def okHttp = '3.2.0'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     retrolambdaConfig 'net.orfjackal.retrolambda:retrolambda:1.8.1'
@@ -47,10 +50,17 @@ dependencies {
     apt                     "org.androidannotations:androidannotations:$androidAnnotations"
     compile                 "org.androidannotations:androidannotations-api:$androidAnnotations"
 
+    compile                 "com.google.code.gson:gson:$gson"
+    compile                 "com.squareup.okhttp3:okhttp:$okHttp"
+    compile                 "com.squareup.okhttp3:logging-interceptor:$okHttp"
+    compile                 "com.squareup.retrofit2:retrofit:$retrofit"
+    compile                 "com.squareup.retrofit2:converter-gson:$retrofit"
+
     compile                 "com.squareup.picasso:picasso:2.5.2"
     compile                 "com.android.support:design:$supportLibrary"
     compile                 "com.android.support:recyclerview-v7:$supportLibrary"
     compile                 "com.android.support:appcompat-v7:$supportLibrary"
+    compile                 "org.greenrobot:eventbus:3.0.0"
 
     testCompile             'junit:junit:4.12'
     androidTestCompile      "com.android.support.test:rules:0.5"
